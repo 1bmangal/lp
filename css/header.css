@@ -15,6 +15,11 @@
 
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
 .periodos .container{
     display: flex;
     width: 100%;
@@ -35,9 +40,20 @@
 }
 
 .pero_vaz_body .image_brasil .brasil h1{
-    padding-top: 200px;
     padding-left: 350px;
     font-size: 36px;
+}
+
+.pero_vaz_body .image_brasil .brasil .bird{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pero_vaz_body .image_brasil .brasil .bird img{
+    width: 100%;
+    height: 600px;
+    padding-left: 500px;
 }
 
 .pero_vaz_body .image_brasil .brasil img{
@@ -59,12 +75,28 @@
 
 .pero_vaz{
     margin-left:0;
+    margin-top: 150px;
 }
 
 .pero_vaz .accordion{
     display: flex;
     flex-direction: row;
     cursor: pointer;
+}
+
+.pero_vaz .accordion .click_on_me{
+    padding-top: 100px;
+    opacity: 3;
+}
+
+.pero_vaz .accordion .click_on_me h1{
+    color: black;
+    opacity: 3;
+    font-size: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
 }
 
 .pero_vaz .accordion .text{
@@ -82,7 +114,7 @@
 }
 
 .pero_vaz .accordion h2{
-    width: 600px;
+    width: 500px;
     font-size: 20px;
     opacity: 0;
 }
