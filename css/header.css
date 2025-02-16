@@ -1,5 +1,6 @@
 /*importando a fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*colocando os padrões do site*/
 *{
@@ -18,6 +19,24 @@
 .container{
     display: flex;
     flex-direction: column;
+}
+
+.container .what{
+    width: 200px;
+    height: 50px;
+    margin-right: 750px;
+    transform: rotate(347deg);
+}
+
+.container .what a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto',serif;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
 }
 
 .periodos .container{

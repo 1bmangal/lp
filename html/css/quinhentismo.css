@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #994e19;
+}
+
+.quinhen{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+.oque .quinhen span{
+    background-color: antiquewhite;
+    font-size: 24px;
+    font-family: 'Roboto',serif;
+}
