@@ -44,7 +44,7 @@
     padding-top: 250px;
     width: 100%;
     height: 700px;
-    border-radius: 30px;
+    border-radius: 40px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -55,4 +55,71 @@
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--texts-color);
+}
+
+.pero_vaz{
+    margin-left:0;
+}
+
+.pero_vaz .accordion{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.pero_vaz .accordion .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.pero_vaz .accordion h1{
+    background: linear-gradient(180deg, rgba(250,235,215,1) 3%, rgba(245,209,159,1) 40%, rgba(223,194,121,1) 100%);
+    width: 200px;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.pero_vaz .accordion h2{
+    width: 600px;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.pero_vaz h4{
+    color: var(--texts-color);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.pero_vaz .accordio h2 .active{
+    width: 600px;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.pero_vaz .accordion h1 .active{
+    background: linear-gradient(180deg, rgba(250,235,215,1) 3%, rgba(245,209,159,1) 40%, rgba(223,194,121,1) 100%);
+    width: 200px;
+    opacity: 1;
+}
+
+
+
+@media (width<1080){
+    .pero_vaz_body .image_brasil{
+        width: 100%;
+        padding: 10px 0;
+        height: 100px;
+    }
+    .periodos .container{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20px;
+    }
 }
