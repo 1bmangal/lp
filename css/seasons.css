@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seasons {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    flex-direction: column;
+}
+
+.seasons .season_text h1 {
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.seasons .season_card {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 500px;
+}
+
+.seasons .season_card .card_season1 {
+    width: 300px;
+    height: 600px;
+    background-image: url(../image/brasil_em_1500/brasil.jpg);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 20px;
+    transition: transform .2s;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);;
+}
+
+.seasons .season_card .card_season1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card_season1:hover{
+    -ms-transform: scale(3.6);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.seasons .season_card .card_season2 {
+    width: 300px;
+    height: 600px;
+    background-image: url(../image/brasil_em_1500/primeira_missa.png);
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 20px;
+    transition: transform .2s;
+    filter: blur();
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+}
+
+.seasons .season_card .card_season2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card_season2:hover{
+    -ms-transform: scale(3.6);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}

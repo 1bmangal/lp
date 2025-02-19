@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --text-color: #fff;
 }
 
-.letter{
-    background: linear-gradient(180deg, rgba(227,214,127,1) 0%, rgba(250,235,215,1) 42%);
+.letter {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -14,45 +13,60 @@
     width: 100%;
 }
 
-.letter .letter_image{
+.letter .letter_image {
     width: 300px;
     height: 400px;
     margin-right: 100px;
     padding-top: 50px;
 }
 
-.letter .letter_image img{
+.letter .letter_image .letter_text {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+.letter .letter_image .letter_text .read {
+    font-family: 'Roboto', serif;
+    white-space: nowrap;
+    width: 100px;
+    height: 65px;
+
+    font-size: 20px;
+}
+
+.letter .letter_image img {
     width: 400px;
     height: 600px;
 }
 
 .letter .letter_image h4 {
     font-size: 10px;
-    color: black;
-    font-family: 'Roboto',serif;
-    margin-left: 50px;
+    color: #fff;
+    font-family: 'Roboto', serif;
+    margin-right: 50px;
 }
 
-.works{
-    background: linear-gradient(180deg, rgba(250,235,215,1) 0%, rgba(153,78,25,1) 96%);
+.works {
     width: 100%;
     height: 700px;
 }
 
-.works .works_text{
+.works .works_text {
     display: flex;
     justify-content: center;
     padding-top: 100px;
     align-items: center;
 }
 
-.works .works_text h1{
-    color: black ;
+.works .works_text h1 {
+    color: black;
     font-size: 48px;
     padding-left: 50px;
 }
-@media(max-width : 600px){
-    .letter .letter_image img{
+
+@media(max-width : 600px) {
+    .letter .letter_image img {
         width: 300px;
         height: 500px;
         margin-left: 80px;

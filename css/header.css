@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
 
 /*colocando os padrões do site*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,47 +12,51 @@
 }
 
 /*cores padrões*/
-:root{
+:root {
     --first-color: #2c541b;
     --texts-color: #fff;
 
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
+body {
+    margin-top: 100px;
+    background-color: #f1eac0;
 }
 
-.container .what{
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .what {
     width: 200px;
     height: 50px;
     margin-right: 750px;
     transform: rotate(347deg);
 }
 
-.container .what a{
+.container .what a {
     font-size: 16px;
     text-decoration: none;
     color: black;
-    font-family: 'Roboto',serif;
+    font-family: 'Roboto', serif;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     background-color: wheat;
 }
 
-.periodos .container{
+.periodos .container {
     display: flex;
     width: 100%;
     height: 100px;
     /* font-size: 48px; */
-    background: rgb(132,142,161);
-    background: linear-gradient(193deg, rgba(132,142,161,1) 0%, rgba(132,142,161,1) 100%);
     justify-content: center;
     align-items: center;
 }
 
-.pero_vaz_body{
+.pero_vaz_body {
     background-image: url(../image/arvores/amazonia.jpg);
     background-repeat: no-repeat;
     background-position: center start;
@@ -60,43 +64,41 @@
     background-size: 2100px;
 }
 
-.pero_vaz_body .image_brasil{
+.pero_vaz_body .image_brasil {
     width: 100%;
     height: 1200px;
 }
 
-.pero_vaz_body .image_brasil .brasil h1{
+.pero_vaz_body .image_brasil .brasil h1 {
     padding-left: 350px;
     font-size: 36px;
     color: var(--texts-color);
-    
+
 }
 
-.pero_vaz_body .image_brasil .brasil .bird{
+.pero_vaz_body .image_brasil .brasil .bird {
     display: flex;
     flex-direction: column;
     gap: 5px;
     padding-left: 350px;
 }
- 
-.pero_vaz_body .image_brasil .brasil .bird h1{
+
+.pero_vaz_body .image_brasil .brasil .bird h1 {
     font-family: 'Anton'
 }
 
-.pero_vaz_body .image_brasil .brasil .bird img{
+.pero_vaz_body .image_brasil .brasil .bird img {
     width: 100%;
     height: 600px;
     padding-left: 500px;
 }
 
-.pero_vaz_body .image_brasil .brasil .background{
-    background: rgb(101,101,111);
-    background: linear-gradient(180deg, rgba(99,104,112,1) 24%, rgba(232,212,132,1) 85%);
+.pero_vaz_body .image_brasil .brasil .background {
     width: 100%;
     height: 600px;
 }
 
-.pero_vaz_body .image_brasil .brasil img{
+.pero_vaz_body .image_brasil .brasil img {
     padding-top: 250px;
     width: 100%;
     height: 700px;
@@ -105,7 +107,7 @@
     padding-right: 150px;
 }
 
-.pero_vaz_body .image_brasil .brasil h4{
+.pero_vaz_body .image_brasil .brasil h4 {
     padding-left: 150px;
     padding-right: 50px;
     font-size: 10px;
@@ -113,23 +115,23 @@
     color: var(--texts-color);
 }
 
-.pero_vaz{
-    margin-left:0;
+.pero_vaz {
+    margin-left: 0;
     margin-top: 150px;
 }
 
-.pero_vaz .accordion{
+.pero_vaz .accordion {
     display: flex;
     flex-direction: row;
     cursor: pointer;
 }
 
-.pero_vaz .accordion .click_on_me{
+.pero_vaz .accordion .click_on_me {
     padding-top: 100px;
     opacity: 3;
 }
 
-.pero_vaz .accordion .click_on_me h1{
+.pero_vaz .accordion .click_on_me h1 {
     color: black;
     opacity: 3;
     font-size: 20px;
@@ -139,119 +141,125 @@
     background-color: wheat;
 }
 
-.pero_vaz .accordion .click_on_me img{
-    height:570px;
-    width:400px;
+.pero_vaz .accordion .click_on_me img {
+    height: 570px;
+    width: 400px;
 }
 
-.pero_vaz .accordion .text{
+.pero_vaz .accordion .text {
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin-left: 10px;
 }
 
-.pero_vaz .accordion h1{
-    background: linear-gradient(180deg, rgba(250,235,215,1) 3%, rgba(245,209,159,1) 40%, rgba(223,194,121,1) 100%);
+.pero_vaz .accordion h1 {
     width: 200px;
     opacity: 0;
     margin-top: 15px;
 }
 
-.pero_vaz .accordion h2{
+.pero_vaz .accordion h2 {
     width: 500px;
     font-size: 20px;
     opacity: 0;
 }
 
-.pero_vaz h4{
+.pero_vaz h4 {
     color: var(--texts-color);
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
 }
 
-.pero_vaz .accordio h2 .active{
+.pero_vaz .accordio h2 .active {
     width: 600px;
     font-size: 25px;
     opacity: 1;
 }
 
-.pero_vaz .accordion h1 .active{
-    background: linear-gradient(180deg, rgba(250,235,215,1) 3%, rgba(245,209,159,1) 40%, rgba(223,194,121,1) 100%);
+.pero_vaz .accordion h1 .active {
     width: 200px;
     opacity: 1;
 }
 
 
-.accordion{
+.accordion {
     display: none;
-    
+
 }
 
-.tittle{
-    font-size:6rem;
+.tittle {
+    font-size: 6rem;
 }
 
-@media (max-width: 1300px){
-    .tittle{
+@media (max-width: 1300px) {
+    .tittle {
         font-size: 6rem;
         text-align: center;
         padding: 10px;
         line-height: 1.2;
-        margin-top:20;
+        margin-top: 20;
     }
-    .container .what a{
-        font-size:16px;
+
+    .container .what a {
+        font-size: 16px;
         margin-left: 6rem;
         text-decoration: none;
         color: black;
-        font-family: 'Roboto',serif;
+        font-family: 'Roboto', serif;
         border-radius: 20px;
         display: flex;
         justify-content: center;
         background-color: wheat;
     }
-    .container .what{
+
+    .container .what {
         width: 300px;
         height: 80px;
         margin-right: 750px;
         transform: rotate(347deg);
         margin-left: 300px;
     }
-    .pero_vaz_body .image_brasil .brasil .bird{
+
+    .pero_vaz_body .image_brasil .brasil .bird {
         display: flex;
         flex-direction: column;
         gap: 5px;
         padding-left: 150px;
     }
-     
-    .pero_vaz_body .image_brasil .brasil .bird h1{
+
+    .pero_vaz_body .image_brasil .brasil .bird h1 {
         font-family: 'Anton';
         padding: 0;
         margin-right: 350px;
         font-size: 40px;
     }
-    .pero_vaz_body .image_brasil .brasil .bird img{
+
+    .pero_vaz_body .image_brasil .brasil .bird img {
         width: 100%;
         height: 600px;
         padding-left: 100px;
     }
-    .pero_vaz_body .image_brasil .brasil h4{
+
+    .pero_vaz_body .image_brasil .brasil h4 {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
         color: var(--texts-color);
     }
-    .pero_vaz_body .image_brasil .brasil img{
-        padding-top :200px;
-        height:600px;
+
+    .pero_vaz_body .image_brasil .brasil img {
+        padding-top: 200px;
+        height: 600px;
     }
-    .pero_vaz img{
+
+    .pero_vaz img {
         margin-top: -20px;
     }
-    .pero_vaz h4{
+
+    .pero_vaz h4 {
         color: var(--texts-color);
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
@@ -260,91 +268,102 @@
 }
 
 
-@media (max-width: 720px){
-    .tittle{
+@media (max-width: 720px) {
+    .tittle {
         font-size: 3rem;
         text-align: center;
         padding: 10px;
         line-height: 1.2;
-        margin-top:20;
+        margin-top: 20;
     }
-    .container .what a{
-        font-size:10px;
+
+    .container .what a {
+        font-size: 10px;
         margin-left: 6rem;
         text-decoration: none;
         color: black;
-        font-family: 'Roboto',serif;
+        font-family: 'Roboto', serif;
         border-radius: 20px;
         display: flex;
         justify-content: center;
         background-color: wheat;
     }
-    .container .what{
+
+    .container .what {
         width: 250px;
         height: 80px;
         margin-right: 750px;
         transform: rotate(347deg);
         margin-left: 200px;
     }
-    .pero_vaz_body .image_brasil .brasil .bird{
+
+    .pero_vaz_body .image_brasil .brasil .bird {
         display: flex;
         flex-direction: column;
         gap: 5px;
         padding-left: 50px;
     }
-    .pero_vaz_body .image_brasil .brasil .bird h1{
+
+    .pero_vaz_body .image_brasil .brasil .bird h1 {
         font-family: 'Anton';
         padding: 0;
         margin-right: 100px;
         font-size: 30px;
     }
-    .pero_vaz_body .image_brasil .brasil .bird img{
+
+    .pero_vaz_body .image_brasil .brasil .bird img {
         width: 100%;
         height: 600px;
         padding-left: 20px;
     }
-    .pero_vaz_body .image_brasil .brasil .background{
-        background: rgb(101,101,111);
-        background: linear-gradient(180deg, rgba(99,104,112,1) 24%, rgba(232,212,132,1) 85%);
+
+    .pero_vaz_body .image_brasil .brasil .background {
+        background: rgb(101, 101, 111);
+        background: linear-gradient(180deg, rgba(99, 104, 112, 1) 24%, rgba(232, 212, 132, 1) 85%);
         width: 100%;
         height: 600px;
     }
-    .accordion{
+
+    .accordion {
         margin-top: -200px;
         margin-bottom: 50px;
     }
-    .pero_vaz{
-        margin-left:0;
+
+    .pero_vaz {
+        margin-left: 0;
         margin-top: -150px;
     }
-    .pero_vaz .accordion .click_on_me img{
-        height:470px;
-        width:350px;
+
+    .pero_vaz .accordion .click_on_me img {
+        height: 470px;
+        width: 350px;
         margin-top: 100px;
     }
-    
+
 }
 
-@media (max-width: 600px){
-    .tittle{
+@media (max-width: 600px) {
+    .tittle {
         font-size: 3rem;
         text-align: center;
         padding: 10px;
         line-height: 1.2;
-        margin-top:20;
+        margin-top: 20;
     }
-    .container .what a{
+
+    .container .what a {
         font-size: 8px;
         margin-left: 6rem;
         text-decoration: none;
         color: black;
-        font-family: 'Roboto',serif;
+        font-family: 'Roboto', serif;
         border-radius: 20px;
         display: flex;
         justify-content: center;
         background-color: wheat;
     }
-    .container .what{
+
+    .container .what {
         width: 220px;
         height: 80px;
         margin-right: 750px;
@@ -352,68 +371,81 @@
         margin-left: 300px;
         margin-top: 15px;
     }
-    .accordion{
+
+    .accordion {
         padding-bottom: 0;
         margin-top: -500;
         display: flex;
         flex-direction: column;
         gap: 5px;
     }
-    .accordion .click_on_me h1{
+
+    .accordion .click_on_me h1 {
         margin-top: -50px;
         margin-left: -100px;
     }
-    .pero_vaz_body .image_brasil .brasil .bird{
+
+    .pero_vaz_body .image_brasil .brasil .bird {
         display: flex;
         flex-direction: column;
         gap: 5px;
         padding: 0;
     }
-    .pero_vaz_body .image_brasil .brasil .bird h1{
+
+    .pero_vaz_body .image_brasil .brasil .bird h1 {
         font-family: 'Anton';
         padding: 0;
         margin-right: 40px;
         font-size: 20px;
         margin-left: 100px;
     }
-    .pero_vaz_body .image_brasil .brasil .bird img{
+
+    .pero_vaz_body .image_brasil .brasil .bird img {
         width: 100%;
         height: 100px;
         padding-left: 0;
 
     }
-    .pero_vaz_body .image_brasil .brasil img{
+
+    .pero_vaz_body .image_brasil .brasil img {
         margin-right: 10px;
         margin-left: 10px;
         justify-content: flex-start;
     }
-    .pero_vaz_body .image_brasil .brasil .background{
-        background: rgb(101,101,111);
-        background: linear-gradient(180deg, rgba(6,15,3,1) 14%, rgba(232,212,132,1) 84%);
+
+    .pero_vaz_body .image_brasil .brasil .background {
+        background: rgb(101, 101, 111);
+        background: linear-gradient(180deg, rgba(6, 15, 3, 1) 14%, rgba(232, 212, 132, 1) 84%);
         width: 100%;
         height: 600px;
     }
-    .pero_vaz .accordion .click_on_me img{
-        height:470px;
-        width:350px;
+
+    .pero_vaz .accordion .click_on_me img {
+        height: 470px;
+        width: 350px;
         margin-top: 200px;
     }
-    .pero_vaz .accordion .click_on_me{
+
+    .pero_vaz .accordion .click_on_me {
         margin-right: 80px;
         margin-left: -20px;
     }
-    .pero_vaz .accordion .click_on_me h1{
+
+    .pero_vaz .accordion .click_on_me h1 {
         margin-top: -200px;
         margin-right: 100px;
         display: flex;
     }
-    .pero_vaz{
+
+    .pero_vaz {
         margin-top: -200px;
     }
-    .pero_vaz img{
+
+    .pero_vaz img {
         margin-top: -180px;
     }
-    .pero_vaz h4{
+
+    .pero_vaz h4 {
         color: var(--texts-color);
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;

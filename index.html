@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quinhentismo</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/letter.css">
     <link rel="stylesheet" href="./css/works.css">
+    <link rel="stylesheet" href="./css/seasons.css">
 </head>
 
 <body>
     <header class="periodos">
         <div class="container">
-            <h1 class = "tittle">
+            <h1 class="tittle" data-aos="zoom-in">
                 Quinhentismo
             </h1>
             <div class="what">
-                <a href="./html/Quinhentismo.html" class="card">
+                <a href="./html/Quinhentismo.html" class="card" data-aos="flip-down">
                     O que é Quinhentismo ?
                 </a>
             </div>
@@ -59,14 +61,19 @@
     </section>
     <section class="letter">
         <div class="letter_image">
-            <img src="./image/brasil_em_1500/carta.png" alt="">
+            <div class="letter_text">
+                <img src="./image/brasil_em_1500/carta.png" alt="">
+                <h1 class="read">
+                    Me leia
+                </h1>
+            </div>
             <h4>https://static.todamateria.com.br/upload/57/ea/57ea5e72407a6-carta-de-pero-vaz-de-caminha.jpg</h4>
         </div>
     </section>
     <section class="works">
         <div class="works_text">
             <div class="red_bird">
-                <img src="./image/animais/vermelhas.png" alt="">
+                <img src="./image/animais/vermelhas.png" alt="" data-aos="zoom-in">
                 <h1>Obras do Quinhentismo</h1>
             </div>
         </div>
@@ -74,16 +81,114 @@
     <main class="work">
         <div class="card_color"></div>
         <div class="more_works">
-            <img src="./image/arvores/pau-brasil-arvore.png" alt="" width="280px" height="800px">
+            <img src="./image/arvores/pau-brasil-arvore.png" alt="" data-aos="fade-up">
             <div class="card">
-                <div class="card_text">
-                    <h1 class="card_h1">Duas viagens ao Brasil</h1>
-                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50">
+                <div class="card_text" data-aos="fade-up" container_accordion>
+                    <h1 class="card_h1">
+                        Duas viagens ao Brasil
+                    </h1>
+                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50" class="scroll">
                 </div>
             </div>
         </div>
+        <div class="work_two">
+            <div class="fade">
+                <img src="./image/animais/mico_leao.png" alt="" data-aos="zoom-in-up">
+                <div class="card_two" id="container_accordion" data-aos="zoom-in-up">
+                    <h1>
+                        Relação do piloto anônimo
+                    </h1>
+                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50" class="scroll">
+                </div>
+            </div>
+        </div>
+        <div class="work_three">
+            <img src="./image/personas/indigena.png" alt="" data-aos="fade-up">
+            <div class="fade2">
+                <div class="card_text2" data-aos="fade-up" container_accordion>
+                    <h1 class="card_h1_2">
+                        Arte de gramática da língua mais usada na costa do Brasil
+                    </h1>
+                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50" class="scroll">
+                </div>
+            </div>
+        </div>
+        <div class="work_four">
+            <img src="./image/icons/cruz.png" alt="" data-aos="zoom-in-right">
+            <div class="fade3">
+                <div class="card_text3" data-aos="zoom-in-right" container_accordion>
+                    <h1 class="card_h1_3">
+                        Auto da festa de São Lourenço
+                    </h1>
+                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50" class="scroll">
+                </div>
+            </div>
+        </div>
+        <div class="work_five">
+            <img src="./image/personas/mestre.png" alt="" data-aos="fade-up">
+            <div class="fade4">
+                <div class="card_text4" data-aos="fade-up" container_accordion>
+                    <h1 class="card_h1_4">
+                        A carta de mestre João Faras
+                    </h1>
+                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50" class="scroll">
+                </div>
+            </div>
+        </div>
+        <div class="work_six">
+            <img src="./image/personas/pero.png" alt="" data-aos="flip-right">
+            <div class="fade5">
+                <div class="card_text5" data-aos="flip-right" container_accordion>
+                    <h1 class="card_h1_5">
+                        Carta de Pero Vaz de Caminha
+                    </h1>
+                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50" class="scroll">
+                </div>
+            </div>
+        </div>
+        <div class="work_seven">
+            <img src="./image/brasil_em_1500/carta.jpg" alt="" data-aos="flip-right">
+            <div class="fade6">
+                <span class="card_text6" data-aos="flip-right" container_accordion>
+                    <h1 class="card_h1_6">
+                        Cartas de Pe
+                    </h1>
+                    <img src="./image/icons/seta_baixo.png" alt="" width="50" height="50" class="scroll">
+                </span>
+            </div>
+        </div>
     </main>
+    <main class="seasons">
+        <div class="season_text">
+            <h1 class="literature">
+                Períodos do Quinhentismo
+            </h1>
+        </div>
+        <div class="season_card">
+            <div class="card_season1">
+                <a href="./html/periodos/periodo_literatura.html">
+                    Período da literatura
+                </a>
+            </div>
+            <div class="card_season2">
+                <a href="./html/periodos/periodo_catequese.html">
+                    Período da catequese
+                </a>
+            </div>
+        </div>
+    </main>
+    <section class="video">
+        <div class="season_text">
+            <h1 class="literature">
+                Contexto Histórico
+            </h1>
+        </div>
+    </section>
 </body>
 <script src="./js/accordion.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

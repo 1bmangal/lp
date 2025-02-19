@@ -1,19 +1,254 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.works{
+
+.works {
     display: flex;
     flex-direction: column;
 }
-.works .works_text .red_birds{
+
+.works .works_text .red_birds {
     width: 100%;
     height: 500px;
 }
-.works .works_text .red_birds img{
+
+.works .works_text .red_birds img {
     width: 100%;
     height: 300px;
 }
-.card_color{
+
+.card_color {
     width: 100%;
     height: 300px;
-    background-image: linear-gradient(to bottom, #9c4c1c, #c76d6c, #d99db2, #e4cfe3, #ffffff);
+}
+
+.work .more_works {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 500px;
+
+}
+
+.work .more_works .card_text {
+    background-color: #82644c;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.work .more_works .card_text h1 {
+    font-family: 'Roboto', serif;
+    font-size: 32px;
+}
+
+.work .more_works .card_text img {
+    padding-bottom: 5px;
+}
+
+.work .work_two {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.work .work_two .fade {
+    display: flex;
+    gap: 500px;
+    flex-direction: row-reverse;
+}
+
+.work .work_two .fade .card_two {
+    background-color: #82644c;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.work .work_two .fade .card_two h1 {
+    font-family: 'Roboto', serif;
+}
+
+.work .work_three {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 500px;
+    flex-direction: row;
+}
+
+.work .work_three .fade2 {
+    background-color: #82644c;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.work .work_three .fade2 .card_text2 .card_h1_2 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.work .work_three .fade2 .card_text2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.work .work_four {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 500px;
+    flex-direction: row-reverse;
+}
+
+.work .work_four .fade3 {
+    background-color: #82644c;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.work .work_four .fade3 .card_text3 .card_h1_3 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.work .work_four .fade3 .card_text3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work .work_five{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 500px;
+    flex-direction: row;
+}
+
+.work .work_five .fade4{
+    background-color: #82644c;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.work .work_five .fade4 .card_text4 .card_h1_4{
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding: 0 10px;
+}
+.work .work_five .fade4 .card_text4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work .work_six {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 500px;
+    flex-direction: row-reverse;
+}
+
+.work .work_six .fade5 {
+    background-color: #82644c;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.work .work_six .fade5 .card_text5 .card_h1_5 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.work .work_six .fade5 .card_text5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work .work_seven{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 500px;
+    flex-direction: row;
+}
+
+.work .work_seven .fade6{
+    background-color: #82644c;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.work .work_seven .fade6 .card_text6 .card_h1_6{
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding: 0 10px;
+}
+.work .work_seven .fade6 .card_text6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 700px) {
+    .works .works_text .red_birds {
+        width: 100%;
+        height: 500px;
+        font-size: 20px;
+    }
 }
