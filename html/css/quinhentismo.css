@@ -25,10 +25,13 @@
     align-items: center;
     padding-top: 20px;
     margin-top: 50px;
-    margin-left: 280px;
+    margin-left: 200px;
+    -webkit-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
 }
 
-.tismo{
+.tismo {
     gap: 5px;
     display: flex;
     align-items: center;
@@ -42,7 +45,7 @@
     font-family: 'Roboto', serif;
 }
 
-.tismo span{
+.tismo span {
     border-radius: 20px;
     font-size: 18px;
     padding: 5px 5px;
@@ -64,6 +67,9 @@
     height: 500px;
     border-radius: 20px;
     padding: 5px 5px;
+    -webkit-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
 }
 
 .oque .carac .teristicas {
@@ -81,23 +87,23 @@
     gap: 20px;
 }
 
-.teristicas span a{
+.teristicas span a {
     background-color: antiquewhite;
     color: brown;
     text-decoration: none;
 }
 
-.autores{
+.autores {
     display: flex;
     color: #fff;
     font-size: 16px;
-    gap: 30px;
-    justify-content: space-between;
+    gap: 300px;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
 }
-.autores .um a div{
+
+.autores .um a div {
     margin-top: 10px;
     width: 210px;
     height: 200px;
@@ -106,7 +112,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.autores .dois a div{
+
+.autores .dois a div {
     margin-top: 10px;
     width: 210px;
     height: 200px;
@@ -115,7 +122,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.autores .tres a div{
+
+.autores .tres a div {
     margin-top: 10px;
     width: 210px;
     height: 200px;
@@ -124,7 +132,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.autores .quatro a div{
+
+.autores .quatro a div {
     margin-top: 10px;
     width: 210px;
     height: 200px;
