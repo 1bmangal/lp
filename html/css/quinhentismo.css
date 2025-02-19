@@ -1,50 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #994e19;
 }
 
-.oque{
-    display:flex;
+.oque {
+    display: flex;
     justify-content: space-around;
     flex-direction: row;
     gap: 50px;
 }
 
-.quinhen{
+.quinhen {
     background-color: antiquewhite;
     border-radius: 20px;
     width: 50%;
     height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding-top: 20px;
     margin-top: 50px;
     margin-left: 280px;
 }
-.oque .quinhen span{
+
+.tismo{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.oque .quinhen span {
     background-color: antiquewhite;
     font-size: 24px;
-    font-family: 'Roboto',serif;
+    font-family: 'Roboto', serif;
 }
-.oque .carac{
+
+.tismo span{
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+
+.oque .tismo {
+    background-color: antiquewhite;
+}
+
+.oque .tismo span {
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+.oque .carac {
     margin-top: 50px;
     background-color: antiquewhite;
     width: 400px;
-    height: 850px;
+    height: 500px;
     border-radius: 20px;
+    padding: 5px 5px;
 }
-.oque .carac .teristicas{
+
+.oque .carac .teristicas {
     background-color: antiquewhite;
 }
-.oque .carac .teristicas span{
+
+.oque .carac .teristicas span {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     background-color: antiquewhite;
     font-size: 24px;
+    font-family: 'Roboto', serif;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.teristicas span a{
+    background-color: antiquewhite;
+    color: brown;
+    text-decoration: none;
+}
+
+.autores{
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    gap: 30px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.autores .um a div{
+    margin-top: 10px;
+    width: 210px;
+    height: 200px;
+    background-image: url(../images/pero-vaz.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.autores .dois a div{
+    margin-top: 10px;
+    width: 210px;
+    height: 200px;
+    background-image: url(../images/magalhoes.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.autores .tres a div{
+    margin-top: 10px;
+    width: 210px;
+    height: 200px;
+    background-image: url(../images/manuel.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.autores .quatro a div{
+    margin-top: 10px;
+    width: 210px;
+    height: 200px;
+    background-image: url(../images/jose.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
