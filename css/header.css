@@ -34,6 +34,12 @@ body {
     height: 50px;
     margin-right: 750px;
     transform: rotate(347deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgb(230, 189, 114);
 }
 
 .container .what a {
@@ -44,7 +50,17 @@ body {
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    background-color: wheat;
+    background-color: rgb(230, 189, 114);
+}
+
+.container .what img{
+    background-color: rgb(230, 189, 114);
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.periodos{
+    margin-bottom: 100px;
 }
 
 .periodos .container {
@@ -182,7 +198,6 @@ body {
     width: 200px;
     opacity: 1;
 }
-
 
 .accordion {
     display: none;
