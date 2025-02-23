@@ -96,11 +96,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding-left: 350px;
+    justify-content: center;
 }
 
 .pero_vaz_body .image_brasil .brasil .bird h1 {
-    font-family: 'Anton'
+    font-family: 'Anton';
+    margin-top: 70vh;
+    display: flex;
+    justify-content: start;
+    padding-right: 350px;
 }
 
 .pero_vaz_body .image_brasil .brasil .bird img {

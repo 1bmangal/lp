@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+.video .season_text .literature{
+    display: flex;
+    margin-top: 80px;
+    font-family: 'Roboto', serif;
+}
+
+.video .season_text .season_context{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 23.961661341853034vh;
+}
+.video .season_text .season_context .line{
+    height: 400px;
+    width: 15px;
+    background-color: black;
+}
+.video .season_text .season_context .started h1{
+    font-family: 'Roboto', serif;
+    margin-top: 5px;
+}
+.video .season_text .line2{
+    justify-content: center;
+}
+.video .season_text .line2 .lines{
+    width: 62.11180124223603vh;
+    height: 15px;
+    display: flex;
+    background-color: black;
+    margin-left: 724px;
+}
+
+.video .season_text .line3{
+    display: flex;
+    justify-content: end;
+    gap: 23.961661341853034vh;
+}
+
+.video .season_text .line3 .line_3{
+    height: 41.40vh;
+    width: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    margin-right: 539px;
+}
+.video .season_text .line3 .reason h1{
+    font-family: 'Roboto',serif;
+    margin-top: 1.852795vh;
+    margin-right: 200px;
+}
+
+.video .season_text .line4 .line_4{
+    width: 62.11180124223603vh;
+    height: 15px;
+    display: flex;
+    background-color: black;
+    margin-left: 724px;
+}
+
+@media (max-width: 1300px){
+    .video .season_text .line2{
+        justify-content: center;
+        margin-left: 100px;
+    }
+    .video .season_text .line2 .lines{
+        width: 62.11180124223603vh;
+        height: 15px;
+        display: flex;
+        background-color: black;
+        margin-left: 331px;
+    }
+    .video .season_text .line3 .line_3{
+        height: 41.40vh;
+        width: 15px;
+        background-color: black;
+        display: flex;
+        justify-content: end;
+        margin-right: 247px;
+    }
+}
