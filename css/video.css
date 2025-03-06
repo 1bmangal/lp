@@ -1,85 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
-
-.video .season_text .literature{
+.content-wrapper {
     display: flex;
-    margin-top: 80px;
-    font-family: 'Roboto', serif;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: flex-start;
 }
 
-.video .season_text .season_context{
+.image-group {
     display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    gap: 23.961661341853034vh;
-}
-.video .season_text .season_context .line{
-    height: 400px;
-    width: 15px;
-    background-color: black;
-}
-.video .season_text .season_context .started h1{
-    font-family: 'Roboto', serif;
-    margin-top: 5px;
-}
-.video .season_text .line2{
-    justify-content: center;
-}
-.video .season_text .line2 .lines{
-    width: 62.11180124223603vh;
-    height: 15px;
-    display: flex;
-    background-color: black;
-    margin-left: 724px;
+    align-items: center;
+    gap: 10px;
 }
 
-.video .season_text .line3{
-    display: flex;
-    justify-content: end;
-    gap: 23.961661341853034vh;
+.image {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
 }
 
-.video .season_text .line3 .line_3{
-    height: 41.40vh;
-    width: 15px;
-    background-color: black;
-    display: flex;
-    justify-content: end;
-    margin-right: 539px;
-}
-.video .season_text .line3 .reason h1{
-    font-family: 'Roboto',serif;
-    margin-top: 1.852795vh;
-    margin-right: 200px;
+.button {
+    padding: 10px 20px;
+    background-color: #82644c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto' , serif;
 }
 
-.video .season_text .line4 .line_4{
-    width: 62.11180124223603vh;
-    height: 15px;
-    display: flex;
-    background-color: black;
-    margin-left: 724px;
+.button:hover {
+    background-color: #82644c;
 }
 
-@media (max-width: 1300px){
-    .video .season_text .line2{
-        justify-content: center;
-        margin-left: 100px;
+.text {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+}
+
+.card {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-group .button{
+    text-decoration: none;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.card-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.card-button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .image-group {
+        flex-direction: column;
+        align-items: flex-start;
     }
-    .video .season_text .line2 .lines{
-        width: 62.11180124223603vh;
-        height: 15px;
-        display: flex;
-        background-color: black;
-        margin-left: 331px;
+
+    .button {
+        width: 100%;
+        margin-top: 10px;
     }
-    .video .season_text .line3 .line_3{
-        height: 41.40vh;
-        width: 15px;
-        background-color: black;
-        display: flex;
-        justify-content: end;
-        margin-right: 247px;
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 90%;
+        left: 5%;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card-button {
+        font-size: 14px;
     }
 }

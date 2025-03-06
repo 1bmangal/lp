@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(230, 189, 114);
+    margin-right: 80px;
 }
 
 .container .what img{
@@ -158,7 +159,7 @@ body {
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    background-color: wheat;
+    background-color: rgb(230, 189, 114);
 }
 
 .pero_vaz .accordion .click_on_me img {
@@ -230,7 +231,7 @@ body {
         border-radius: 20px;
         display: flex;
         justify-content: center;
-        background-color: wheat;
+        background-color: rgb(230, 189, 114);
     }
 
     .container .what {
@@ -305,7 +306,7 @@ body {
         border-radius: 20px;
         display: flex;
         justify-content: center;
-        background-color: wheat;
+        background-color: rgb(230, 189, 114);
     }
 
     .container .what {
@@ -338,7 +339,7 @@ body {
 
     .pero_vaz_body .image_brasil .brasil .background {
         background: rgb(101, 101, 111);
-        background: linear-gradient(180deg, rgba(99, 104, 112, 1) 24%, rgba(232, 212, 132, 1) 85%);
+        background-color: #f1eac0;
         width: 100%;
         height: 600px;
     }
@@ -379,7 +380,7 @@ body {
         border-radius: 20px;
         display: flex;
         justify-content: center;
-        background-color: wheat;
+        background-color: rgb(230, 189, 114);
     }
 
     .container .what {
@@ -434,7 +435,7 @@ body {
 
     .pero_vaz_body .image_brasil .brasil .background {
         background: rgb(101, 101, 111);
-        background: linear-gradient(180deg, rgba(6, 15, 3, 1) 14%, rgba(232, 212, 132, 1) 84%);
+        background-color: #f1eac0;
         width: 100%;
         height: 600px;
     }
@@ -469,5 +470,115 @@ body {
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: -20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tittle {
+        font-size: 2rem;
+        text-align: center;
+        padding: 8px;
+        line-height: 1.1;
+        margin-top: 15px;
+    }
+
+    .container .what a {
+        font-size: 7px;
+        margin-left: 4rem;
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto', serif;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(230, 189, 114);
+    }
+
+    .container .what {
+        width: 180px;
+        height: 60px;
+        margin-right: 500px;
+        transform: rotate(347deg);
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .accordion {
+        padding-bottom: 0;
+        margin-top: -400px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .accordion .click_on_me h1 {
+        margin-top: -40px;
+        margin-left: -80px;
+    }
+
+    .pero_vaz_body .image_brasil .brasil .bird {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 0;
+    }
+
+    .pero_vaz_body .image_brasil .brasil .bird h1 {
+        font-family: 'Anton';
+        padding: 0;
+        margin-right: 30px;
+        font-size: 18px;
+        margin-left: 80px;
+    }
+
+    .pero_vaz_body .image_brasil .brasil .bird img {
+        width: 100%;
+        height: 80px;
+        padding-left: 0;
+    }
+
+    .pero_vaz_body .image_brasil .brasil img {
+        margin-right: 8px;
+        margin-left: 8px;
+        justify-content: flex-start;
+    }
+
+    .pero_vaz_body .image_brasil .brasil .background {
+        background: rgb(101, 101, 111);
+        background-color: #f1eac0;
+        width: 100%;
+        height: 500px;
+    }
+
+    .pero_vaz .accordion .click_on_me img {
+        height: 370px;
+        width: 280px;
+        margin-top: 150px;
+    }
+
+    .pero_vaz .accordion .click_on_me {
+        margin-right: 60px;
+        margin-left: -15px;
+    }
+
+    .pero_vaz .accordion .click_on_me h1 {
+        margin-top: -150px;
+        margin-right: 80px;
+        display: flex;
+    }
+
+    .pero_vaz {
+        margin-top: -150px;
+    }
+
+    .pero_vaz img {
+        margin-top: -130px;
+    }
+
+    .pero_vaz h4 {
+        color: var(--texts-color);
+        font-size: 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -15px;
     }
 }

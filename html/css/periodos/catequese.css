@@ -1,0 +1,93 @@
+.how {
+    font-family: Arial, sans-serif;
+    background-color: #f1eac0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/*@media deu errado apaguei saporra bora testar denovo*/
+
+
+@media (max-width: 1200px) {
+    .card {
+        max-width: 500px;
+        padding: 30px;
+    }
+
+    .card h1 {
+        font-size: 32px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 950px) {
+    .card {
+        max-width: 400px;
+        padding: 25px;
+    }
+
+    .card h1 {
+        font-size: 28px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+    .card {
+        max-width: 300px;
+        padding: 20px;
+    }
+
+    .card h1 {
+        font-size: 24px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        max-width: 250px;
+        padding: 15px;
+    }
+
+    .card h1 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+}

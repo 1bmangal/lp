@@ -1,0 +1,208 @@
+.apresent{
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+}
+
+.grid_container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 120px;
+}
+
+.circle-link1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../image/obras/crenca.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.circle-link1:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.circle-link2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../image/obras/moeda.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.circle-link2:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.circle-link3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../image/obras/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.circle-link3:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.circle-link4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../image/obras/texto.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.circle-link4:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.circle-link5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../image/obras/descoberta.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.circle-link5:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.circle-link6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../image/obras/barco.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.circle-link6:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.circle-link1 span, .circle-link2 span, .circle-link3 span, .circle-link4 span, .circle-link5 span, .circle-link6 span {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 28px; 
+    font-weight: bold;
+    white-space: nowrap;
+    font-family: 'Roboto', serif;
+}
+
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .circle-link {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .circle-link {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 15px;
+    }
+
+    .circle-link {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+    }
+}
