@@ -1,144 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
     background-color: #994e19;
-}
-
-.oque {
+    margin: 0;
+    padding: 20px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.quinhen {
-    background-color: antiquewhite;
-    border-radius: 20px;
-    width: 50%;
-    height: 500px;
+.container {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    margin-top: 50px;
-    margin-left: 200px;
-    -webkit-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+    gap: 150px;
 }
 
-.tismo {
-    gap: 5px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 20px;
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 48%;
 }
 
-.oque .quinhen span {
-    background-color: antiquewhite;
+.card h2 {
     font-size: 24px;
-    font-family: 'Roboto', serif;
-}
-
-.tismo span {
-    border-radius: 20px;
-    font-size: 18px;
-    padding: 5px 5px;
-}
-
-.oque .tismo {
-    background-color: antiquewhite;
-}
-
-.oque .tismo span {
-    background-color: antiquewhite;
-    font-size: 20px;
-}
-
-.oque .carac {
-    margin-top: 50px;
-    background-color: antiquewhite;
-    width: 400px;
-    height: 500px;
-    border-radius: 20px;
-    padding: 5px 5px;
-    -webkit-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 7px 7px 26px 0px rgba(0, 0, 0, 0.75);
-}
-
-.oque .carac .teristicas {
-    background-color: antiquewhite;
-}
-
-.oque .carac .teristicas span {
+    margin-top: 0;
+    color: #333;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    background-color: antiquewhite;
-    font-size: 24px;
-    font-family: 'Roboto', serif;
-    flex-direction: column;
-    gap: 20px;
 }
 
-.teristicas span a {
-    background-color: antiquewhite;
-    color: black;
+.card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+.images-container a{
+    display: inline-block;
     text-decoration: none;
 }
 
-.autores {
-    display: flex;
-    color: #fff;
-    font-size: 16px;
-    gap: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
+.images-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-.autores .um a div {
-    margin-top: 10px;
-    width: 210px;
-    height: 200px;
-    background-image: url(../images/pero-vaz.jpg);
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .images-container img {
+        width: 110px;
+        height: 110px;
+    }
 }
 
-.autores .dois a div {
-    margin-top: 10px;
-    width: 210px;
-    height: 200px;
-    background-image: url(../images/magalhoes.png);
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+@media (max-width: 992px) {
+    .container {
+        max-width: 800px;
+        gap: 30px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .images-container img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
-.autores .tres a div {
-    margin-top: 10px;
-    width: 210px;
-    height: 200px;
-    background-image: url(../images/manuel.jpg);
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .images-container {
+        gap: 20px;
+    }
+
+    .images-container img {
+        width: 90px;
+        height: 90px;
+    }
 }
 
-.autores .quatro a div {
-    margin-top: 10px;
-    width: 210px;
-    height: 200px;
-    background-image: url(../images/jose.png);
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .images-container img {
+        width: 80px;
+        height: 80px;
+    }
 }
