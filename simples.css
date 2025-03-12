@@ -1,0 +1,50 @@
+.section_simples {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .container_simples {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section_simples p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .botao_simples {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #90EE90;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao_simples:hover {
+    background-color: #90EE90;
+  }
+  
+  @media (max-width: 768px) {
+    .section_simples {
+      padding: 20px 10px;
+    }
+  
+    .section_simples p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  
+    .botao_simples {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }

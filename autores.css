@@ -70,3 +70,61 @@
     color: black;
     background-color: antiquewhite;
   }
+
+  @media (max-width: 768px) {
+    .section_autores h2 {
+      font-size: 2rem;
+    }
+  
+    .carrossel_item img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .autor_info h3 {
+      font-size: 1.5rem;
+    }
+  
+    .autor_info p {
+      font-size: 1rem;
+    }
+  
+    .botao_autor {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .carrossel_btn {
+      padding: 8px;
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section_autores h2 {
+      font-size: 1.8rem;
+    }
+  
+    .carrossel_item img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .autor_info h3 {
+      font-size: 1.3rem;
+    }
+  
+    .autor_info p {
+      font-size: 0.9rem;
+    }
+  
+    .botao_autor {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+    }
+  
+    .carrossel_btn {
+      padding: 6px;
+      font-size: 1rem;
+    }
+  }
