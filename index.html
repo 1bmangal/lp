@@ -1,196 +1,187 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quinhentismo</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/letter.css">
-    <link rel="stylesheet" href="./css/works.css">
-    <link rel="stylesheet" href="./css/seasons.css">
-    <link rel="stylesheet" href="./css/video.css">
-    <link rel="stylesheet" href="./css/circle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quinhentismo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="section.css">
+  <link rel="stylesheet" href="carta.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="autores.css">
+  <link rel="stylesheet" href="obras.css">
 </head>
 
 <body>
-    <header class="periodos">
-        <div class="container">
-            <h1 class="tittle" data-aos="zoom-in">
-                Quinhentismo
-            </h1>
-            <div class="what">
-                <a href="./html/Quinhentismo.html" class="card" data-aos="flip-down">
-                    O que é Quinhentismo
-                    <img src="./image/icons/seta_baixo.png" alt="" height="10" width="10">
-                </a>
-            </div>
+  <div class="texto">Quinhentismo</div>
+  <div class="fundo"></div>
+
+  <div class="div_verde" id="div_verde">
+    <div class="container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUwvIUK6IaK65Hvw6E2pR-q6wuYp1y5fr_GQ&s"
+        alt="Pero Vaz" class="imagem_pero_vaz">
+      <button class="botao" id="botao">Saiba mais</button>
+      <div class="accordion" id="accordion">
+        <p>Pero Vaz de Caminha foi o escrivão da frota de Pedro Álvares Cabral, responsável por escrever a Carta de
+          Caminha, documento que descreve o "descobrimento" do Brasil.</p>
+        <a href="./html/autores/perovaz.html" class="link_biografia">Ver biografia completa</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section da Árvore -->
+  <section class="section_arvore" id="section_arvore">
+    <div class="conteudo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3256/3256280.png" alt="Árvore" class="arvore" id="arvore">
+      <div class="texto_quinhentismo">
+        <h2>O que é o Quinhentismo?</h2>
+        <p>O Quinhentismo foi o período literário que marcou o início da produção escrita no Brasil, durante o século
+          XVI. As obras desse período retratam as impressões dos colonizadores sobre a nova terra e seus habitantes.</p>
+        <a href="./html/Quinhentismo.html" class="botao_quinhentismo">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nova Section da Carta -->
+  <section class="section_carta" id="section_carta">
+    <div class="container_carta">
+      <div class="accordion_carta" id="accordion_carta">
+        <p>Esta é uma carta histórica que descreve o "descobrimento" do Brasil. Clique no botão para saber mais.</p>
+        <a href="carta.html" class="link_carta">Ver carta completa</a>
+      </div>
+      <button class="botao_carta" id="botao_carta">Saiba mais</button>
+      <img
+        src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/11/primeira-pagina-da-carta-de-pero-vaz-de-caminha.png"
+        alt="Carta" class="imagem_carta" id="imagem_carta">
+    </div>
+  </section>
+
+  <section class="section_grid" id="section_grid">
+    <h2>Características dos Textos Quinhentistas</h2>
+    <img src="gif.gif" alt="Ave voando" class="ave_voando" height="500" width="500">
+    <div class="grid_circulos">
+      <a href="descricao_terra.html" class="circulo">
+        <img
+          src="https://png.pngtree.com/png-clipart/20230810/original/pngtree-map-of-brazil-icon-black-color-symbol-latino-american-vector-picture-image_10241856.png"
+          alt="Descrição da Terra">
+        <p>Descrição da Terra</p>
+      </a>
+      <a href="relatos_viagens.html" class="circulo">
+        <img
+          src="https://media.brainly.com.br/image/rs:fill/w:1080/q:75/plain/https://pt-static.z-dn.net/files/d1a/ce21ed4a1d343ae3e19aed36721ad861.jpg"
+          alt="Relatos de Viagens">
+        <p>Relatos de Viagens</p>
+      </a>
+      <a href="desprezo.html" class="circulo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExpGPnzWd1-Ftb9CC3mNt3lxZf6jaQ6gS4g&s"
+          alt="Desprezo">
+        <p>Desprezo</p>
+      </a>
+      <a href="religiosidade.html" class="circulo">
+        <img src="https://www.worldhistory.org/img/r/p/500x600/10441.jpg?v=1628087403" alt="Religiosidade">
+        <p>Religiosidade</p>
+      </a>
+      <a href="nova_pagina1.html" class="circulo">
+        <img src="https://www.cafehistoria.com.br/wp-content/uploads/2019/04/Pero-vaz-de-Caminha.jpg"
+          alt="Nova Característica 1">
+        <p>Linguagem simples</p>
+      </a>
+      <a href="nova_pagina2.html" class="circulo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/1500_map_by_Juan_de_la_Cosa-Brazil.jpg"
+          alt="Nova Característica 2">
+        <p>Exaltação à terra</p>
+      </a>
+    </div>
+  </section>
+  <section class="autores">
+    <h1 class="text">Autores</h1>
+    <div class="carrossel">
+      <span id="slider-image1"></span>
+      <span id="slider-image2"></span>
+      <span id="slider-image3"></span>
+      <span id="slider-image4"></span>
+      <span id="slider-image5"></span>
+      <span id="reset-target"></span>
+      <div class="image_container">
+        <div class="img_personas">
+          <img src="./img_personas/jose.png" class="slider-image">
+          <h1>José de Anchieta</h1>
         </div>
-    </header>
-    <section class="pero_vaz_body">
-        <div class="image_brasil">
-            <div class="brasil">
-                <div class="bird">
-                    <h1>Carta de Pero Vaz de Caminha</h1>
-                </div>
-                <img src="./image/brasil_em_1500/brasil.jpg" alt="">
-                <h4>https://aventurasnahistoria.com.br/media/_versions/hard_news/pedroamdmdm_widelg.jpg</h4>
-                <div class="background">
-                </div>
-            </div>
+        <div class="img_personas">
+          <img src="./img_personas/caminha.png" class="slider-image">
+          <h1>Pero vaz de Caminha</h1>
         </div>
-        <div class="pero_vaz">
-            <div class="accordion">
-                <img src="./image/personas/pero_vaz.png" alt="">
-                <div class="click_on_me">
-                    <h1>Olá, clique por aqui</h1>
-                </div>
-                <div class="text">
-                    <h1>Sobre Mim</h1>
-                    <h2>
-                        Eu, Pero Vaz de Caminha, escrivão desta armada do
-                        Capitão-mor Pedro Álvares Cabral,
-                        vos escrevo com a alma cheia de maravilhas. Aqui, nestas terras de Vera Cruz,
-                        onde os céus se estendem
-                        infinitos e as árvores tocam as nuvens,
-                        encontramos um paraíso de gente simples e natureza pródiga.
-                    </h2>
-                </div>
-            </div>
-            <h4>https://biografiaresumida.com.br/wp-content/uploads/2018/06/Pero-Vaz-de-Caminha.webp</h4>
+        <div class="img_personas">
+          <img src="./img_personas/manuel.png" class="slider-image">
+          <h1>Manuel da Nóbrega</h1>
         </div>
-    </section>
-    <section class="letter">
-        <div class="letter_image">
-            <div class="letter_text">
-                <img src="./image/brasil_em_1500/carta.png" alt="">
-                <a class="read">
-                    Me leia
-                </a>
-            </div>
-            <h4>https://static.todamateria.com.br/upload/57/ea/57ea5e72407a6-carta-de-pero-vaz-de-caminha.jpg</h4>
+        <div class="img_personas">
+          <img src="./img_personas/manga.png" class="slider-image">
+          <h1>Pero Mangalhões Gandâvo</h1>
         </div>
-    </section>
-    <section class="works">
-        <div class="works_text">
-            <div class="red_bird">
-                <img src="./image/animais/vermelhas.png" alt="" data-aos="zoom-in">
-                <h1>Obras do Quinhentismo</h1>
-            </div>
+        <div class="img_personas">
+          <img src="./img_personas/hans.png" class="slider-image">
+          <h1>Hans Staden</h1>
         </div>
-    </section>
-    <main class="work">
-        <div class="content-wrapper">
-            <div class="image-group">
-                <img src="./image/personas/indigena.png" alt="Imagem 1" class="image">
-                <a href="./html/trabalhos/" class="button">
-                    Saiba Mais
-                </a>
-            </div>
-            <div class="image-group">
-                <img src="./image/personas/duas_idas.png" alt="Imagem 2" class="image">
-                <a href="./html/trabalhos/duasidas.html" class="button">
-                    Saiba Mais
-                </a>
-            </div>
-            <div class="image-group">
-                <img src="./image/personas/pero_vaz.png" alt="Imagem 3" class="image">
-                <a href="./html/trabalhos/" class="button">
-                    Saiba Mais
-                </a>
-            </div>
-            <div class="image-group">
-                <img src="./image/personas/pero.png" alt="Imagem 4" class="image">
-                <a href="./html/trabalhos/" class="button">
-                    Saiba Mais
-                </a>
-            </div>
-        </div>
-    </main>
-    <main class="seasons">
-        <div class="season_text">
-            <h1 class="literature">
-                Períodos do Quinhentismo
-            </h1>
-        </div>
-        <div class="season_card">
-            <div class="card_season1">
-                <a href="./html/periodos/periodo_literatura.html">
-                    Período da literatura
-                </a>
-            </div>
-            <div class="card_season2">
-                <a href="./html/periodos/periodo_catequese.html">
-                    Período da catequese
-                </a>
-            </div>
-        </div>
-    </main>
-    <section class="video">
-        <div class="container">
-            <h1 class="text">
-                <strong>
-                    Maldades da igreja católica
-                </strong>
-            </h1>
-            <p class="minitext">
-                Conversão forçada: Indígenas foram obrigados a abandonar suas crenças e culturas para adotar o
-                cristianismo.
-            </p>
-            <p class="minitext">
-                Destruição cultural: Tradições e línguas indígenas foram suprimidas em nome da "civilização".
-            </p>
-            <p class="minitext">
-                Escravidão africana: A Igreja legitimou a escravidão de africanos, usando argumentos religiosos.
-            </p>
-            <p class="minitext">
-                Exploração indígena: A Igreja colaborou com a colonização, justificando a escravização e o trabalho
-                forçado dos nativos.
-            </p>
-            <p class="minitext">
-                Poder e riqueza: Acumulou terras e influência, beneficiando-se do sistema colonial.
-            </p>
-            <div class="line">
-            </div>
-            <h1 class="text">
-                <p>
-                    <strong>
-                        Porque a igreja queria catequizar os indigenas?
-                    </strong>
-                </p>
-                <p class="minitext">
-                    Do ponto de vista dos jesuítas, a destruição da cultura indígena simbolizava o sucesso dos
-                    aldeamentos e da política metropolitana inspirada por eles. Os religiosos argumentavam que as
-                    aldeias não só protegiam os nativos da escravidão e facilitavam sua conversão, mas também forneciam
-                    uma força militar auxiliar para ser usada contra tribos hostis, intrusos estrangeiros e escravos
-                    bêbados. Entretanto, os efeitos dessa política eram tão agressivos e aniquiladores da identidade
-                    nativa que, não raro, os índios preferiam trabalhar com os colonos, apesar de serem atividades mais
-                    rigorosas, pois estes pouco se envolviam com seus valores, deixando-os mais livres.
-                </p>
-            </h1>
-        </div>
-    </section>
-    <strong>
-        <h1 class="apresent">
-            carácteristicas dos textos do Quinhentismo
-        </h1>
-    </strong>
-    <section class="grid">
-        <div class="grid_container">
-            <a href="./html/caracteristicas/religiao.html" class="circle-link1"><span>Religiosidade</span></a>
-            <a href="./html/caracteristicas/dinheiro.html" class="circle-link2"><span>Interesse economico</span></a>
-            <a href="./html/caracteristicas/descricao.html" class="circle-link3"><span>Descritivismo da terra</span></a>
-            <a href="./html/caracteristicas/direto.html" class="circle-link4"><span>Detalhados e diretos</span></a>
-            <a href="./html/caracteristicas/desprezo.html" class="circle-link5"><span>Desprezo</span></a>
-            <a href="./html/caracteristicas/trampo.html" class="circle-link6"><span>Trabalhos realizados</span></a>
-        </div>
-    </section>
+      </div>
+    </div>
+    <div class="butons">
+      <a href="./html/autores/jose.html">José</a>
+      <a href="./html/autores/perovaz.html">Caminha</a>
+      <a href="./html/autores/manuel.html">Manuel</a>
+      <a href="./html/autores/peromangalhao.html">Mangalhões</a>
+      <a href="./html/autores/hans.html">Hans</a>
+    </div>
+  </section>
+  <section class="obras">
+    <h1>Obras do Quinhentismo</h1>
+    <div class="grid_circulos">
+      <a href="descricao_terra.html" class="circulo">
+        <img
+          src="https://png.pngtree.com/png-clipart/20230810/original/pngtree-map-of-brazil-icon-black-color-symbol-latino-american-vector-picture-image_10241856.png"
+          alt="Descrição da Terra">
+        <p>Carta de Pero vaz de Caminha</p>
+      </a>
+      <a href="relatos_viagens.html" class="circulo">
+        <img
+          src="https://media.brainly.com.br/image/rs:fill/w:1080/q:75/plain/https://pt-static.z-dn.net/files/d1a/ce21ed4a1d343ae3e19aed36721ad861.jpg"
+          alt="Relatos de Viagens">
+        <p>Duas viagens ao Brasil</p>
+      </a>
+      <a href="desprezo.html" class="circulo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExpGPnzWd1-Ftb9CC3mNt3lxZf6jaQ6gS4g&s"
+          alt="Desprezo">
+        <p>Arte de Gramática da Língua mais Usada na Costa do Brasil</p>
+      </a>
+      <a href="religiosidade.html" class="circulo">
+        <img src="https://www.worldhistory.org/img/r/p/500x600/10441.jpg?v=1628087403" alt="Religiosidade">
+        <p>O Tratado da Terra do Brasil</p>
+      </a>
+      <a href="nova_pagina1.html" class="circulo">
+        <img src="https://www.cafehistoria.com.br/wp-content/uploads/2019/04/Pero-vaz-de-Caminha.jpg"
+          alt="Nova Característica 1">
+        <p>Linguagem simples</p>
+      </a>
+      <a href="nova_pagina2.html" class="circulo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/1500_map_by_Juan_de_la_Cosa-Brazil.jpg"
+          alt="Nova Característica 2">
+        <p>Cartas e escritos</p>
+      </a>
+      <a href="nova_pagina2.html" class="circulo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/1500_map_by_Juan_de_la_Cosa-Brazil.jpg"
+          alt="Nova Característica 2">
+        <p>Informação da Terra do Brasil</p>
+      </a>
+    </div>
+  </section>
+
+
+
+  <script src="script.js"></script>
+  <script src="section.js"></script>
+  <script src="carta.js"></script>
+  <script src="autores.js"></script>
 </body>
-<script src="./js/accordion.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
 
 </html>

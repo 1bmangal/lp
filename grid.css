@@ -1,0 +1,119 @@
+.section_grid {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .section_grid h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 100px;
+  }
+  
+  .grid_circulos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .circulo img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .circulo p {
+    font-size: 0.9em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .circulo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .grid_circulos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .circulo {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .circulo img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .circulo p {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid_circulos {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .circulo {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .circulo img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .circulo p {
+      font-size: 0.7em;
+    }
+  }
+  
+  .ave_voando {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 50%;
+    left: -100px;
+    animation: voar 10s linear infinite;
+  }
+  
+  @keyframes voar {
+    0% {
+      left: -100px;
+      transform: scaleX(1);
+    }
+    50% {
+      left: 100%;
+      transform: scaleX(-1);
+    }
+    100% {
+      left: -100px;
+      transform: scaleX(1);
+    }
+  }

@@ -1,0 +1,11 @@
+.obras{
+    background-color: #c0e3af;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.obras h1{
+    display: flex;
+    justify-content: center;
+}

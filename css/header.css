@@ -162,6 +162,57 @@ body {
     background-color: rgb(230, 189, 114);
 }
 
+
+.accordion {
+    background-color: #c59967;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    width: auto;
+    display: inline-block;
+  }
+  .accordion:hover {
+    background-color: #e2b179;
+  }
+  .speech_bubble {
+    display: none;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(209, 184, 131);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 200px;
+    margin-right: 20px;
+  }
+  .speech_bubble::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white;
+  }
+  .redirect_button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  .redirect_button:hover {
+    background-color: #218838;
+  }
+
 .pero_vaz .accordion .click_on_me img {
     height: 570px;
     width: 400px;

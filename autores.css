@@ -1,0 +1,72 @@
+.autores{
+    margin: 5rem 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .carrossel{
+    border: 1px solid black;
+    border-radius: 20px;  
+    width: 60rem;
+    height: 26rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    gap: auto;
+    overflow: hidden;
+    padding: 3rem 4rem;
+  }
+  
+  .text{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slide_container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image_container {
+    width: 50vw; 
+    height: 35vh;
+    gap: 50px;
+    display: flex;
+    animation: slideAnimation 9s infinite ease-in-out;
+  }
+  
+  .img_personas h1{
+    text-align: center;
+  }
+  
+  @keyframes slideAnimation {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-20vw); }
+    66.66% { transform: translateX(-37vw); }
+    100% { transform: translateX(0); }
+  }
+  
+  .butons{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+  }
+  
+  .butons a{
+    text-decoration: none;
+    border: 1px solid black;
+    height: 3rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    background-color: antiquewhite;
+  }

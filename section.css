@@ -1,0 +1,131 @@
+.section_arvore {
+    position: relative;
+    background-color: #f0f8ff;
+    padding: 40px;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  
+  .conteudo {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .arvore {
+    width: 200px;
+    height: auto;
+    transition: transform 0.5s ease;
+    margin-left: 20px;
+  }
+  
+  .texto_quinhentismo {
+    max-width: 600px;
+  }
+  
+  .texto_quinhentismo h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .texto_quinhentismo p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .botao_quinhentismo {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botao_quinhentismo:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .section_arvore {
+      padding: 20px;
+    }
+  
+    .conteudo {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .arvore {
+      width: 150px;
+      margin-left: 0;
+    }
+  
+    .texto_quinhentismo h2 {
+      font-size: 1.5em;
+    }
+  
+    .texto_quinhentismo p {
+      font-size: 1em;
+    }
+  
+    .botao_quinhentismo {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section_arvore {
+      padding: 15px;
+    }
+  
+    .arvore {
+      width: 120px;
+    }
+  
+    .texto_quinhentismo h2 {
+      font-size: 1.2em;
+    }
+  
+    .texto_quinhentismo p {
+      font-size: 0.9em;
+    }
+  
+    .botao_quinhentismo {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .section_arvore {
+      padding: 10px;
+    }
+  
+    .arvore {
+      width: 100px;
+    }
+  
+    .texto_quinhentismo h2 {
+      font-size: 1em;
+    }
+  
+    .texto_quinhentismo p {
+      font-size: 0.8em;
+    }
+  
+    .botao_quinhentismo {
+      font-size: 10px;
+      padding: 5px 10px;
+    }
+  }
